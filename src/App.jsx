@@ -10,7 +10,7 @@ import Samsung from "./assets/Vector.png";
 import Monday from "./assets/monday.png";
 import Segment from "./assets/vector1.png";
 import About from "./assets/about.png";
-import { blogs, footer, service, stats } from "./assets/data/data";
+import { blogs, footer, stats } from "./assets/data/data";
 import profile from "./assets/profile.png";
 import video1 from "./assets/video.png";
 import Screen from "./assets/Screen.png";
