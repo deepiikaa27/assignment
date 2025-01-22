@@ -88,38 +88,3 @@ export const footer = [
     links: ["About Us", "News", "Leadership", "Media Kit"],
   },
 ];
-
-export const service = [
-  {
-    icon: <FaBuilding className="text-orange-500 text-4xl mx-auto mb-4" />,
-    title: "Company Formation",
-    description: "Build web-based solutions that enhance customer experience.",
-  },
-  {
-    icon: <FaFileAlt className="text-orange-500 text-4xl mx-auto mb-4" />,
-    title: "Company Secretarial Services",
-    description:
-      "Make data-driven decisions and utilize technology to reach business goals.",
-  },
-  {
-    icon: <FaMapMarkerAlt className="text-orange-500 text-4xl mx-auto mb-4" />,
-    title: "Virtual Office Address",
-    description:
-      "Foster customer relationships by effectively serving your market.",
-  },
-  {
-    icon: <FaCalendarAlt className="text-orange-500 text-4xl mx-auto mb-4" />,
-    title: "Annual Compliance Services",
-    description: "Turn all your ideas into reality with our design experts.",
-  },
-  {
-    icon: <FaMoneyCheckAlt className="text-orange-500 text-4xl mx-auto mb-4" />,
-    title: "Payroll Services",
-    description: "Expand your business across the globe with minimum effort.",
-  },
-  {
-    icon: <FaBook className="text-orange-500 text-4xl mx-auto mb-4" />,
-    title: "Bookkeeping Services",
-    description: "Streamline your processes using modern designs & technology.",
-  },
-];

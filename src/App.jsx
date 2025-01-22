@@ -84,7 +84,56 @@ function App() {
         </div>
 
         <div className="container mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 px-14">
-          {service.map((service, index) => (
+          {[
+            {
+              icon: (
+                <FaBuilding className="text-orange-500 text-4xl mx-auto mb-4" />
+              ),
+              title: "Company Formation",
+              description:
+                "Build web-based solutions that enhance customer experience.",
+            },
+            {
+              icon: (
+                <FaFileAlt className="text-orange-500 text-4xl mx-auto mb-4" />
+              ),
+              title: "Company Secretarial Services",
+              description:
+                "Make data-driven decisions and utilize technology to reach business goals.",
+            },
+            {
+              icon: (
+                <FaMapMarkerAlt className="text-orange-500 text-4xl mx-auto mb-4" />
+              ),
+              title: "Virtual Office Address",
+              description:
+                "Foster customer relationships by effectively serving your market.",
+            },
+            {
+              icon: (
+                <FaCalendarAlt className="text-orange-500 text-4xl mx-auto mb-4" />
+              ),
+              title: "Annual Compliance Services",
+              description:
+                "Turn all your ideas into reality with our design experts.",
+            },
+            {
+              icon: (
+                <FaMoneyCheckAlt className="text-orange-500 text-4xl mx-auto mb-4" />
+              ),
+              title: "Payroll Services",
+              description:
+                "Expand your business across the globe with minimum effort.",
+            },
+            {
+              icon: (
+                <FaBook className="text-orange-500 text-4xl mx-auto mb-4" />
+              ),
+              title: "Bookkeeping Services",
+              description:
+                "Streamline your processes using modern designs & technology.",
+            },
+          ].map((service, index) => (
             <div
               key={index}
               className="p-6 text-center border-r-2 hover:shadow-md transition"
